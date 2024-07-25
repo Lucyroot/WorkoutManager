@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Workout Manager</h1>
+        <button id="createWorkoutBtn">Create Workout</button>
+        <button id="exportWorkoutsBtn">Export Workouts</button>
+        <input type="file" id="importWorkoutsInput" style="display: none;" />
+        <button id="importWorkoutsBtn">Import Workouts</button>
+        <div id="workoutsContainer"></div>
+    </div>
+    
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <h2 id="currentWorkoutName"></h2>
+            <h3 id="currentExerciseName"></h3>
+            <div id="timer"></div>
+            <button id="exitWorkoutBtn">Exit Workout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
