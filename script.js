@@ -105,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (exercisesDiv.style.display === 'none') {
             exercisesDiv.style.display = 'block';
             exercisesDiv.style.background = '#fd00ff36';
+            exercisesDiv.style.margin: '2% 5%';
         } else {
             exercisesDiv.style.display = 'none';
         }
