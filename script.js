@@ -104,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const exercisesDiv = workoutsContainer.children[workoutIndex].querySelector('.exercises');
         if (exercisesDiv.style.display === 'none') {
             exercisesDiv.style.display = 'block';
+            exercisesDiv.style.left = '10%';
         } else {
             exercisesDiv.style.display = 'none';
         }
