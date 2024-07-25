@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const exercisesDiv = document.createElement('div');
             exercisesDiv.classList.add('exercises');
             exercisesDiv.style.display = 'none';
-            exercisesDiv.style.left = '10%';
             workout.exercises.forEach((exercise, exerciseIndex) => {
                 const exerciseDiv = document.createElement('div');
                 exerciseDiv.classList.add('exercise');
